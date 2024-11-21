@@ -1,3 +1,6 @@
-export default function App(){
-  
+import { Browser } from "./routes";
+
+export default function App()
+{
+    return <Browser />
 }

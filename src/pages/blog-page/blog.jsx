@@ -1,3 +1,5 @@
 export default function Blog(){
-    return <></>
+    return <>
+    <h1>Welocme ILHOM</h1>
+    </>
 }

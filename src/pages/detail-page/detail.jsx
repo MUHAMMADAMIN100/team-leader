@@ -1,3 +1,5 @@
 export default  function Detail(){
-    return <></>
+    return <>
+    <h1>Welcome MARHABO</h1>
+    </>
 }

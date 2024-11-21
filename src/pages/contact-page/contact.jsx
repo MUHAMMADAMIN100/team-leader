@@ -1,3 +1,5 @@
 export default function Contact(){
-    return<></>
+    return<>
+    <h1>Welcome SHUHRAT</h1>
+    </>
 }

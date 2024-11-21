@@ -1,3 +1,5 @@
 export default  function About(){
-    return <></>
+    return <>
+        <h1>Welcome KAMOL</h1>
+    </>
 }
