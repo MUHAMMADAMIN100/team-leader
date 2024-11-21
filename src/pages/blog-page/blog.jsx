@@ -1,5 +1,5 @@
 export default function Blog(){
     return <>
-    <h1>Welocme ILHOM</h1>
+    <h1>Welcome ILHOM</h1>
     </>
 }
