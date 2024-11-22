@@ -1,0 +1,71 @@
+.HeaderDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 97%;
+    padding: 0 15px; 
+    box-sizing: border-box; 
+    gap: 20px; 
+}
+
+.HeaderTexts {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.HeaderPText {
+    color: rgba(29, 30, 37, 1);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.HeaderContact {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 600;
+    margin-left: 90px; 
+}
+
+.HeaderIcon {
+    display: none;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .HeaderDiv {
+        flex-wrap: wrap; 
+        gap: 20px; 
+    }
+
+    .HeaderTexts {
+        display: none; 
+    }
+
+    .HeaderIcon {
+        display: block; 
+    }
+}
+
+
+@media (max-width: 425px) {
+    .HeaderDiv {
+        gap: 10px; 
+    }
+
+    .HeaderPText {
+        font-size: 16px;
+    }
+}
+
+/* Для экранов до 320px */
+@media (max-width: 320px) {
+    .HeaderDiv {
+        padding: 0 10px; 
+    }
+    .HeaderPText {
+        font-size: 14px; 
+    }
+}
