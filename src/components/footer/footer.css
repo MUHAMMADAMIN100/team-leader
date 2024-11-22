@@ -1,0 +1,51 @@
+.FooterDiv{
+    background-color: black;
+}
+.FooterDivThink{
+    background-color: red;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.FooterH1Think{
+    color: white;
+    font-size: 70px;
+    font-weight: 600;
+}
+.FooterPTexts{
+    color: rgba(175, 179, 187, 1);
+    font-size: 20px;
+    font-weight: 500;
+}
+.FooterSpanText{
+    background-color: white;
+    color: rgba(29, 30, 37, 1);
+    padding: 16px 32px;
+    border-radius: 100px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.FooterDivinfo{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    padding-top: 100px;
+    margin: auto;
+}
+.FooterDivvDecrip{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+}
+.FooterDivInfoTexts{
+    background-color: firebrick;
+    width: 70%;
+}
+.H1Title{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+}
