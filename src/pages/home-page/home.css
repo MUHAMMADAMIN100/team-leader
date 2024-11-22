@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.flex {
+    display: flex;
+    gap: 5px;
+}
+.logo_companies span{
+    width: 80%;
+}
+.logo_companies img{
+   
+}
+.align_center {
+    align-items: center;
+    gap: 5px;
+}
+
+.justify-content-c {
+    justify-content: center;
+}
+
+.justify-content-s {
+    justify-content: space-between;
+}
+
+.justify-content-a {
+    justify-content: space-around;
+}
+
+.column {
+    flex-direction: column;
+    gap: 5px;
+}
+
+.box_img {
+    position: relative;
+}
+
+.box_img_img {
+    top: -40%;
+    left: 70%;
+    transform: translate(-30%, 60%);
+    position: absolute;
+    width: 40%;
+}
+
+.forward_img {
+    width: 40%;
+}
+
+.forward_box {
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.g {
+    gap: 8px;
+}
+
+.forward_text {
+    background-image: url("../home-page/img/circle.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    width: 60%;
+}
+
+.color {
+    color: #1D1E25;
+}
+
+.forward_text_box {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.forward_text_box h1 {
+    font-size: 4vw;
+}
+
+.forward_text_box p {
+    margin-top: 50px;
+    width: 85%;
+    font-size: 1.8vw;
+    font-weight: 600;
+}
+
+.img {
+    width: 100%;
+}
+
+.image {
+    height: 100%;
+}
+
+.black_btn {
+    padding: 13px 40px;
+    border-radius: 20px;
+    color: white;
+    font-size: 1vw;
+    background-color: #1D1E25;
+    border: none;
+}
+
+.custom_input {
+    padding: 13px 10px;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.custom_elem {
+    margin-top: 30px;
+}
+
+.coca_cola {
+    padding: 30px;
+    background-color: #1D1E25;
+    color: white;
+}
+
+.coca_cola span {
+    color: #7E8492;
+}
+
+.coca_cola_box {
+    width: 60%;
+    margin: 20px 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.coca_cola_box h1 {
+    font-size: 3vw;
+    margin: 10px 0;
+}
+
+.coca_cola_cards {
+    display: grid;
+    gap: 20px;
+    justify-content: space-around;
+    grid-template-columns: repeat(2, 33%);
+}
+
+.box_card {
+    width: 90%;
+    line-height: 25px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.box_card p {
+    font-size: 1.6vw;
+    font-weight: 600;
+}
+
+.passion_box {
+    padding: 70px 0;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.passion_box_img {
+    background-image: url("./img/image.png");
+    background-repeat: no-repeat;
+    height: 90vh;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.business_text {}
+
+.passion_box_text {
+    width: 40%;
+}
+
+.passion_box_text h1 {
+    font-size: 3vw;
+}
+
+.passion_box_text span {
+    width: 80%;
+    color: #7E8492;
+    line-height: 25px;
+    font-size: 1.2vw;
+}
+
+.check_box {
+    width: 80%;
+}
+
+.text_business {
+    width: 94%;
+    margin: auto;
+
+    gap: 20px;
+}
+
+.text_business p {
+    margin: auto;
+}
+
+.text_text {
+    font-size: 3vw;
+}
+
+.text_desc {
+    width: 80%;
+    color: #7E8492;
+}
+
+.logo_companies {
+    display: grid;
+    grid-template-columns: repeat(4, 30%);
+}
+
+.advertise {
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    justify-content: space-around;
+}
+
+.advertise span {
+    color: #7E8492;
+}
+
+.trending_text {
+    margin: 60px 0;
+    text-align: center;
+}
+
+.trending_text h1 {
+    margin: 10px 0;
+
+    font-size: 3vw;
+}
+
+.trending_text span {
+    color: #7E8492;
+}
+
+.trending_box {
+    width: 96%;
+    margin: auto;
+}
+
+.trendin_card h1 {
+    margin: 20px 0;
+    width: 90%;
+}
+
+.rating_box {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .forward_box {
+        flex-direction: column;
+        gap: 100px;
+    }
+.logo_companies span{
+    width: auto;
+}
+    .coca_cola_cards {
+        grid-template-columns: repeat(1, 90%);
+    }
+
+    .advertise {
+        grid-template-columns: repeat(1, 90%);
+    }
+
+    .trending_box {
+        flex-direction: column;
+    }
+
+    .passion_box_text {
+        width: 100%;
+    }
+
+    .passion_box_img {
+        padding: 0;
+        width: 90%;
+        background-size: cover;
+    }
+
+    .logo_companies {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .companies_box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .forward_text_box {
+        width: 100%;
+    }
+
+    .forward_img {
+        width: 90%;
+    }
+
+    .passion_box {
+        flex-direction: column-reverse;
+    }
+
+    .forward_text {
+        width: 100%;
+    }
+
+    .forward_text_box p {
+        font-size: 3vw;
+    }
+
+    .forward_text_box h1 {
+        font-size: 10vw;
+    }
+    .cards_flex{
+        width: 90%;
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+}
+@media (max-width: 450px){
+.advertise div{
+    flex-direction: column;
+}
+}
