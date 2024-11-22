@@ -1,0 +1,184 @@
+*{
+    font-family: sans-serif;
+}
+.title{
+    padding: 50px 10%;
+
+}
+.title h1{
+    font-size: 70px;
+    width: 70%;
+}
+
+.mainDesc{
+    display: flex;
+    margin: 50px 10%;
+    justify-content: space-between;
+}
+
+.line{
+    display: flex;
+}
+
+.descText{
+    width: 45%;
+    line-height: 35px;
+}
+
+
+.imgOfficce{
+    margin-left: 10%;
+    margin-top: 50px;
+    display: flex;
+    gap: 5%;
+}
+
+.laptop{
+    width: 30%;
+}
+.team{
+    width: 30%;
+}
+
+.btnMore{
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btnMore:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.5s;
+    
+}
+
+.gilrCont{
+    width: 30%;
+}
+
+.powerful{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 10%;
+}
+
+.powerful h1{
+    width: 30%;
+    font-size: 40px;
+}
+
+.powerful p{
+    width: 30%;
+    font-size: 20px;
+}
+
+.meet{
+    width: 50%;
+    padding: 50px 10%;
+}
+
+.meet h1{
+    width: 70%;
+}
+.meet p{
+    width: 70%;
+    line-height: 25px;
+}
+
+.profs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 10px 10%;
+}
+
+.socialCont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media(max-width: 400px){
+    .title h1{
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .mainDesc{
+        flex-wrap: wrap;
+        margin: 0px 5%;
+    }
+
+    .descText{
+        width: 100%;
+        font-size: 10px;
+        line-height: 25px;
+        margin-left: 10px;
+    }
+
+    .lineCont img{
+        width: 20px;
+        margin-top: 20px;
+    }
+
+    .logoArrow img{
+        height: 50px;
+        margin-left: 250px;
+    }
+
+    .imgOfficce{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+    }
+
+    .laptop{
+        width: 90%;
+    }
+
+    .team{
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .gilrCont{
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    .powerful{
+        flex-direction: column;
+        h1{
+            width: 100%;
+            font-size: 30px;
+        }
+
+        p{
+            width: 100%;
+            font-size: 15px;
+        }
+    }
+
+    .meet{
+        width: 80%;
+        padding: 0px 10%;
+        h1{
+            width: 100%;
+            font-size: 30px;
+        }
+
+        p{
+            width: 100%;
+            font-size: 15px;
+        }
+    }
+
+    .profs{
+        grid-template-columns: 1fr;
+    }
+}
