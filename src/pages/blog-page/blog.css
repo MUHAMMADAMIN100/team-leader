@@ -1,0 +1,205 @@
+
+
+.FirstBaground {
+    background-image: url(./assets/Ellipse\ 125.png);
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 100%;
+  }
+  
+  .divHeder {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+  }
+  
+  .divHeder div {
+    display: flex;
+    gap: 25px;
+    font-size: 18px;
+  }
+  
+  .divHeder h3 {
+    margin-left: 30px;
+  }
+  
+  .divHeder img {
+    width: 100px;
+  }
+  
+  .divTherd {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 5%;
+    font-size: 16px;
+  }
+  
+  .divTherd p {
+    color: #7e8492;
+  }
+  
+  .firstDiveComp {
+    display: flex;
+    gap: 10px;
+    margin-left: 5%;
+    margin-top: 100px;
+  }
+  
+  .SecondDivComp {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 100px 0px;
+    gap: 100px;
+    color: white;
+    background-color: black;
+    margin-top: 100px;
+     p {
+      margin-left: 100px;
+     }
+  }
+  
+  .TherdDivComp {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 100px;
+    gap: 30px;
+    margin-left: 5%;
+  }
+  
+  .SecondDiv {
+    display: flex;
+    align-items: center;
+  
+    
+  }
+  
+  .SecondDiv p {
+    width: 400px;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  
+  .SecondDiv img {
+    height: 2px;
+    width: 60px;
+    margin-left: 5%;
+    margin-top: -50px;
+  }
+  
+  .EndDiv {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+    justify-content: space-between;
+    border-bottom: 2px solid #ced1d8;
+    padding-bottom: 50px;
+    margin-left: 5%;
+  }
+  
+  
+  @media (max-width: 375px) {
+    .divHeder {
+      flex-direction: column;
+      margin-left: 50%;
+   
+    }   
+    .divMenu{
+           text-align: center;
+            p {
+              font-size: 30px;
+            }
+      }
+   
+  
+    .divHeder div {
+      flex-direction: column;
+      gap: 10px;
+      font-size: 14px;
+      text-align: center;
+    }
+  
+    .divHeder h3 {
+      margin-left: 0;
+    }
+  
+    .divHeder img {
+      width: 80px;
+    }
+  
+    .divTherd {
+      flex-direction: column;
+      gap: 10px;
+      margin-left: 10%;
+      font-size: 20px;
+    }
+  
+    .divTherd p {
+      color: #7e8492;
+    }
+  
+    .firstDiveComp {
+      flex-direction: column;
+      gap: 5px;
+      margin-top: 50px;
+    }
+  
+    .SecondDivComp {
+      grid-template-columns: 1fr;
+      padding: 40px;
+      gap: 50px;
+    }
+  
+    .TherdDivComp {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .SecondDiv  {
+      p{
+           width: auto;
+      margin-left: 20px;
+      font-size: 20px;
+      }
+      button {
+        display: none;
+      }
+   
+    }
+  
+    .SecondDiv img {
+     display: none;
+    }
+  
+    .EndDiv {
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 50px;
+      
+      img {
+        display: none;
+     
+      }
+         button {
+          display: none;
+        }
+        p {
+          font-size: 20px;
+        }
+    }
+    .SecondDivComp{
+      flex-direction: column;
+      gap: 200px;
+      width: 190%;
+  
+    }
+  }

@@ -4,6 +4,7 @@ import Blog from "./pages/blog-page/blog";
 import Contact from "../src/pages/contact-page/pages/branch-One/contact";
 import Detail from "./pages/detail-page/detail";
 import Layout from "./layout/layout";
+import { Suspense } from "react";
 
 const router=createBrowserRouter([
     {
@@ -12,27 +13,27 @@ const router=createBrowserRouter([
         children:[
             {
                 index:true,
-                element:<Home/>
+                element:<Suspense><Home/></Suspense>
             },
             {
                 path:"/about",
-                element:<About/>
+                element:<Suspense><About/></Suspense>
             },
             {
                 path:"/blog",
-                element:<Blog />
+                element:<Suspense><Blog /></Suspense>
             },
             {
                 path:"/contact",
-                element:<Contact />
+                element:<Suspense><Contact /></Suspense>
             },
             {
                 path:"/detail",
-                element:<Detail />
+                element:<Suspense><Detail /></Suspense>
             },
             {
                 path:"/pricing",
-                element:<Pricing />
+                element:<Suspense><Pricing /></Suspense>
             },
             
         ]
