@@ -15,6 +15,7 @@ const navigate=useNavigate()
                 <p onClick={()=>navigate("/about")} className='HeaderPText'>About</p>
                 <p onClick={()=>navigate("/blog")} className='HeaderPText'>Blog</p>
                 <p onClick={()=>navigate("/pricing")} className='HeaderPText'>Pricing</p>
+                <p onClick={()=>navigate("/detail")} className='HeaderPText'>Detail</p>
                 <p onClick={()=>navigate("/contact")} className='HeaderPText HeaderContact'>Contact Us</p>
             </div>
             <img className='HeaderIcon' src={HeaderIcon} alt="" />
