@@ -9,10 +9,10 @@
     gap: 5px;
 }
 .logo_companies span{
-    width: 80%;
+    width: 75%;
 }
 .logo_companies img{
-   
+width: 100%;
 }
 .align_center {
     align-items: center;
