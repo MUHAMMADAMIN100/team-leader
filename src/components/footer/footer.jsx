@@ -1,5 +1,6 @@
 import './footer.css'
 import FooterLogo from './images/Logo (6).png'
+import SocialMediaImg from './images/Social media (2).png'
 export function Footer({}) 
 {
     return <>
@@ -60,6 +61,24 @@ export function Footer({})
                         </div>
                     </div>
                 </div>
+
+
+
+                    <hr />
+
+                <div className='FooterSocialMedia'>
+                    <div className="FooterSocialMediaImgText">
+                        <div><img src={SocialMediaImg} alt="" /></div>
+                        <div className='DivSocialMediaText'>
+                            <p className='FooterPTexts'>Privacy Policy</p>
+                            <p className='FooterPTexts'>Terms & Conditions</p>
+                            <p className='FooterPTexts'>Support</p>
+                        </div>
+                        <div>
+                            <p className='FooterPTexts'>© Copyright 2023,t All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>  
 
         </div>
     

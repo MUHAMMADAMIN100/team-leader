@@ -68,4 +68,7 @@
     .HeaderPText {
         font-size: 14px; 
     }
+    .FooterDivvDecrip{
+        display: none;
+    }
 }
