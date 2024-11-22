@@ -14,10 +14,10 @@ export default function Main(){
                 </div>
             </div>
             <div className="flex box_img forward_img">
-                <img  className="box_img_img" src="src/pages/home-page/img/customer-light.png" alt="" />
+                <img  className="box_img_img" src="/src/pages/home-page/img/customer-light.png" alt="" />
                 <div className="flex column"> 
-                    <img className="img" src="src/pages/home-page/img/sales-light.png" alt="" />
-                    <img className="img" src="src/pages/home-page/img/static-light.png" alt="" />
+                    <img className="img" src="/src/pages/home-page/img/sales-light.png" alt="" />
+                    <img className="img" src="/src/pages/home-page/img/static-light.png" alt="" />
                 </div>
             </div>
          </div>
