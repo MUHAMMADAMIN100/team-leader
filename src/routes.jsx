@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { About, Home, Pricing } from "./routes/routes";
 import Blog from "./pages/blog-page/blog";
-import Contact from "./pages/contact-page/contact";
+import Contact from "../src/pages/contact-page/pages/branch-One/contact";
 import Detail from "./pages/detail-page/detail";
 import Layout from "./layout/layout";
 
